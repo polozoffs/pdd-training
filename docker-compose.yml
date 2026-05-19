@@ -1,0 +1,33 @@
+services:
+  pdd-app:
+    build: .
+    image: pdd-app:latest
+    container_name: pdd-app
+    ports:
+      - "${PORT:-8002}:8000"
+    volumes:
+      # Mount data directory for persistent storage
+      - ./data:/app/data
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TZ=${TZ:-UTC}
+      - SECRET_KEY=${SECRET_KEY:-change-me-in-production-use-a-long-random-string}
+      - ALLOWED_ORIGINS=${ALLOWED_ORIGINS:-http://45.95.175.156:8002,http://www.polozoffs.top,https://www.polozoffs.top}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/stats"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      - pdd-network
+
+networks:
+  pdd-network:
+    driver: bridge

@@ -1,0 +1,65 @@
+# Ignore version control
+.git
+.gitignore
+.gitattributes
+
+# Ignore documentation
+*.md
+README.md
+RANCHER_DEPLOYMENT.md
+docs/
+
+# Ignore development files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Ignore build artifacts
+node_modules/
+frontend/dist/
+frontend/node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore test files
+tests/
+test_*
+*_test.py
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+.env.local
+.env.*.local
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore backup and old files
+*.backup
+*.bak
+*.old
+questions_backup.json
+images_backup/
+
+# Ignore scripts not needed in production
+scrape_*.py
+cleanup_*.py
+check_*.py
+remove_*.py
+find_*.py
+*_scraper.py

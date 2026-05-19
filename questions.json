@@ -1,0 +1,2037 @@
+[
+  {
+    "id": 1,
+    "question": {
+      "text_en": "Is it necessary to adjust the headrest?",
+      "text_es": "¿Es necesario ajustar el reposacabezas?",
+      "text_ru": "Нужно ли отрегулировать подголовник?"
+    },
+    "image": "question_1.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "No, it comes factory regulated.",
+        "text_es": "No, ya está ajustado de fábrica.",
+        "text_ru": "Нет, он уже отрегулирован на заводе.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "Yes, both in the front seats and in the rear ones.",
+        "text_es": "Sí, hay que ajustarlo tanto en los asientos delanteros como en los traseros.",
+        "text_ru": "Да, как на передних, так и на задних сиденьях.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "No, because it is a fixed element.",
+        "text_es": "No, porque es un elemento fijo y no se puede mover.",
+        "text_ru": "Нет, потому что это фиксированный элемент и его нельзя переместить.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "El apoyacabezas es un elemento fundamental de seguridad en el vehículo, diseñado para proteger el cuello y la cabeza de los ocupantes en caso de accidente, especialmente en una colisión trasera. Si no se ajusta correctamente, puede causar lesiones graves como el latigazo cervical.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 2,
+    "question": {
+      "text_en": "On a highway that runs through an urban area, what is the maximum speed a car can travel if there is no signage?",
+      "text_es": "En una autopista dentro de una zona urbana, ¿cuál es la velocidad máxima permitida para un coche si no hay señales?",
+      "text_ru": "На автомагистрали, проходящей через городскую зону, с какой максимальной скоростью может двигаться легковой автомобиль, если нет дорожных знаков?"
+    },
+    "image": "question_2.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "At 80 km/h.",
+        "text_es": "80 km/h",
+        "text_ru": "80 км/ч",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "At 120 km/h.",
+        "text_es": "120 km/h",
+        "text_ru": "120 км/ч",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "At 100 km/h.",
+        "text_es": "100 km/h",
+        "text_ru": "100 км/ч",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "En las autopistas que atraviesan zonas urbanas en España, si no hay señales que indiquen otro límite, la velocidad máxima permitida para turismos es de 80 km/h.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 3,
+    "question": {
+      "text_en": "Do fatigue, alcohol or bad weather influence accidents?",
+      "text_es": "¿La fatiga, el alcohol o el mal tiempo aumentan la probabilidad de un accidente?",
+      "text_ru": "Увеличивают ли усталость, алкоголь или плохая погода вероятность аварии?"
+    },
+    "image": "question_3.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "No, because an accident cannot be predicted.",
+        "text_es": "No, porque un accidente no se puede predecir.",
+        "text_ru": "Нет — аварию предсказать нельзя.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "Yes, they are risk factors that increase the probability and severity of accidents.",
+        "text_es": "Sí, son factores de riesgo que aumentan la probabilidad y la gravedad de los accidentes.",
+        "text_ru": "Да, это факторы риска, которые увеличивают вероятность и тяжесть аварий.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "No, because the risk factors are others.",
+        "text_es": "No, porque los factores de riesgo son otros.",
+        "text_ru": "Нет — факторы риска другие.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "La fatiga, el alcohol y el mal tiempo son factores de riesgo clave en los accidentes de tráfico.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 4,
+    "question": {
+      "text_en": "Are cars required to have a left rearview mirror?",
+      "text_es": "¿Los coches deben llevar el espejo lateral izquierdo?",
+      "text_ru": "Должны ли легковые автомобили иметь левое боковое зеркало заднего вида?"
+    },
+    "image": "question_4.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "No, it's optional.",
+        "text_es": "No, no es obligatorio.",
+        "text_ru": "Нет, это необязательно.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "Only if the interior rearview mirror does not allow a full view of the road.",
+        "text_es": "Solo si el espejo retrovisor interior no permite ver toda la carretera.",
+        "text_ru": "Только если внутреннее зеркало заднего вида не обеспечивает полного обзора проезжей части.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Yes, it is mandatory.",
+        "text_es": "Sí, es obligatorio.",
+        "text_ru": "Да, это обязательно.",
+        "is_correct": true
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "El espejo retrovisor izquierdo es obligatorio en todos los turismos en España. Permite al conductor controlar los vehículos que circulan a su izquierda, lo que es crucial para los cambios de carril, adelantamientos e incorporaciones.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 5,
+    "question": {
+      "text_en": "On an urban road with one lane in each direction, you should drive...",
+      "text_es": "En una calle urbana con un carril en cada sentido, debe circular...",
+      "text_ru": "На городской улице с одной полосой движения в каждом направлении вы должны двигаться..."
+    },
+    "image": "question_5.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "as close as possible to the right side of the road.",
+        "text_es": "lo más cerca posible del lado derecho de la vía.",
+        "text_ru": "как можно ближе к правому краю проезжей части.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "in the area that is most convenient.",
+        "text_es": "en la zona que más convenga.",
+        "text_ru": "в той части проезжей части, которая вам наиболее удобна.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "in the middle of the road, in straight road sections.",
+        "text_es": "en el centro de la calzada, en tramos rectos.",
+        "text_ru": "по центру проезжей части на прямых участках.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "De acuerdo con el Reglamento General de Circulación en España, específicamente la norma 10.2, los vehículos deben circular siempre por el lado derecho de la calzada, lo más cerca posible del borde derecho, excepto cuando se adelante a otro vehículo o se realice alguna maniobra que requiera desplazarse hacia la izquierda.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 6,
+    "question": {
+      "text_en": "In narrow sections on steep slopes, if there is no specific signage to that effect, the vehicle traveling in the direction will have the right of way...",
+      "text_es": "En estrechamientos con pendiente pronunciada, si no hay señalización, tendrá prioridad el vehículo que circule en sentido...",
+      "text_ru": "На узких участках с крутым уклоном, если отсутствует дорожная сигнализация, преимущество проезда будет у автомобиля, движущегося в направлении..."
+    },
+    "image": "question_6.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Descending, unless it could reach a lay-by earlier.",
+        "text_es": "El vehículo que baja, salvo que pueda llegar antes a un lugar donde apartarse.",
+        "text_ru": "Вниз, за исключением случаев, когда он сможет раньше съехать на обочину.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "Ascending, unless it could reach a lay-by earlier.",
+        "text_es": "El vehículo que sube, salvo que pueda llegar antes a un lugar donde apartarse.",
+        "text_ru": "Вверх, за исключением случаев, когда он сможет раньше съехать на обочину.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "Ascending, in any case.",
+        "text_es": "El vehículo que sube, en cualquier caso.",
+        "text_ru": "Вверх, в любом случае.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "En tramos de carretera con gran pendiente y en estrechamientos donde no existe señalización específica, el vehículo que circula en sentido ascendente tiene preferencia de paso, salvo si puede llegar antes a un apartadero. Esta norma está diseñada para garantizar la seguridad al evitar situaciones potencialmente peligrosas entre vehículos que bajan y suben pendientes pronunciadas.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 7,
+    "question": {
+      "text_en": "Does increasing speed increase the likelihood of death in case of hitting a pedestrian?",
+      "text_es": "Si el vehículo va más rápido, ¿aumenta la probabilidad de que un peatón muera?",
+      "text_ru": "Увеличивается ли вероятность смерти пешехода при увеличении скорости автомобиля?"
+    },
+    "image": "question_7.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "No, the speed of the vehicle has no significant impact on the likelihood of a pedestrian's death when hit.",
+        "text_es": "No. La velocidad no influye mucho en la probabilidad de muerte de un peatón.",
+        "text_ru": "Нет — скорость автомобиля не оказывает существенного влияния на вероятность смерти пешехода при наезде.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "Yes, increasing the speed of a vehicle increases the likelihood of fatality in case of hitting a pedestrian.",
+        "text_es": "Sí. Si un vehículo va más rápido, aumenta la probabilidad de que un peatón muera en caso de atropello.",
+        "text_ru": "Да — при увеличении скорости автомобиля повышается вероятность смерти пешехода при наезде.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "The probability is the same, it will depend solely on the health status of the pedestrian.",
+        "text_es": "No. La probabilidad no depende solo de la salud del peatón.",
+        "text_ru": "Нет — вероятность не одинакова; она зависит не только от состояния здоровья пешехода.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Según las normas de circulación en España, al aumentar la velocidad de un vehículo también se incrementa el riesgo y potencia del impacto durante una colisión con un peatón. La energía cinética de un vehículo crece exponencialmente con el aumento de la velocidad, lo que resulta en mayores posibilidades de causar lesiones graves o fatales al ser atropellado. Esto está implícitamente relacionado con las regulaciones generales sobre seguridad vial y prioridad de los peatones en los pasos de cebra, donde se exige a los conductores reducir la velocidad para garantizar su protección.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 8,
+    "question": {
+      "text_en": "If you are a chronic patient, what should you do to reduce the risk of having an accident?",
+      "text_es": "Si tiene una enfermedad crónica, ¿qué debe hacer para reducir el riesgo de sufrir un accidente?",
+      "text_ru": "Если у вас хроническое заболевание, что следует сделать, чтобы снизить риск аварии?"
+    },
+    "image": "question_8.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Know what the side effects of medications are.",
+        "text_es": "Conocer los efectos secundarios de los medicamentos.",
+        "text_ru": "Знать побочные эффекты принимаемых лекарств.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "Stop medication whenever you are going to drive.",
+        "text_es": "No dejar de tomar la medicación antes de conducir.",
+        "text_ru": "Не прекращать приём лекарств перед вождением.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Ignore symptoms to avoid distractions.",
+        "text_es": "No ignorar los síntomas que puedan afectar a la conducción.",
+        "text_ru": "Не игнорировать симптомы, которые могут повлиять на вождение.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Los conductores deben tener en cuenta los efectos secundarios de cualquier medicación que estén tomando, especialmente si son enfermedades crónicas, ya que algunos medicamentos pueden afectar la capacidad para conducir con seguridad. El Reglamento General de Circulación exige que todos los conductores mantengan un nivel adecuado de atención y reacción al volante, lo cual puede verse comprometido por efectos secundarios como somnolencia o mareo.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 9,
+    "question": {
+      "text_en": "In this situation, what should you do?",
+      "text_es": "¿Qué debe hacer en esta situación?",
+      "text_ru": "Что вы должны сделать в этой ситуации?"
+    },
+    "image": "question_9.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Stop obeying the agent's signal.",
+        "text_es": "Parar y obedecer la señal del agente.",
+        "text_ru": "Остановиться и подчиниться сигналу регулировщика.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "Pass moderating speed.",
+        "text_es": "Seguir, reduciendo la velocidad.",
+        "text_ru": "Проехать, снизив скорость.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Only stop if there is also a stop signal.",
+        "text_es": "Detenerse solo si hay una señal de \"STOP\".",
+        "text_ru": "Остановиться только если имеется дорожный знак «STOP».",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "En España, el artículo 9 del Reglamento General de Circulación establece que las señales y los semáforos en rojo deben ser completamente respetados por todos los conductores. Si un agente de tráfico está dirigiendo el tráfico o dando instrucciones, sus indicaciones tienen prioridad sobre cualquier señal existente. Por lo tanto, cuando un agente indica que un vehículo debe detenerse, el conductor debe obedecer y detenerse.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 10,
+    "question": {
+      "text_en": "When a vehicle is stationary on the right side of the road...",
+      "text_es": "Si un vehículo está detenido en el lado derecho de la calle...",
+      "text_ru": "Если транспортное средство остановлено у правого края проезжей части..."
+    },
+    "image": "question_10.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "The driver may enter or exit on the left side, but quickly and with caution.",
+        "text_es": "El conductor puede entrar o salir por el lado izquierdo, pero debe hacerlo rápidamente y con cuidado.",
+        "text_ru": "водитель может выходить из автомобиля или садиться в него с левой стороны, но должен делать это быстро и осторожно.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "The driver may never enter or exit on the right side.",
+        "text_es": "El conductor no debe entrar ni salir por el lado derecho si resulta peligroso; no está prohibido en todos los casos.",
+        "text_ru": "водитель не должен выходить или садиться с правой стороны, если это опасно; это не всегда запрещено.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "The driver should always enter or exit on the right side.",
+        "text_es": "Por lo general, se debe entrar o salir por el lado derecho, a menos que sea más peligroso.",
+        "text_ru": "водитель обычно должен выходить или садиться с правой стороны, если это не представляет большей опасности.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Cuando un vehículo está inmovilizado en el lado derecho de la calzada, el conductor puede entrar o salir por el lado izquierdo siempre que lo haga con rapidez y precaución. Esta disposición se deriva del principio general de minimizar riesgos para los conductores al evitar moverse hacia el lado donde podría haber tráfico en movimiento o cuando las condiciones visuales no son óptimas.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 11,
+    "question": {
+      "text_en": "In narrow sections of steep slopes, if there is no specific signage, the vehicle traveling in the direction will have the right of way...",
+      "text_es": "En los estrechamientos con mucha pendiente, si no hay señalización, tendrá preferencia el vehículo que circule en sentido...",
+      "text_ru": "На узких участках с большим уклоном, если отсутствуют дорожные знаки, преимущественное право проезда имеет транспортное средство, движущееся в направлении..."
+    },
+    "image": "question_11.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "uphill, unless it could reach a lay-by earlier.",
+        "text_es": "ascendente, salvo que pudiera llegar antes a un apartadero.",
+        "text_ru": "вверх, за исключением случаев, когда оно могло бы раньше добраться до места для разъезда.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "uphill, in any case.",
+        "text_es": "ascendente, en ningún caso.",
+        "text_ru": "вверх, в любом случае.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "downhill, unless it could reach a lay-by earlier.",
+        "text_es": "descendente, salvo que pudiera llegar antes a un apartadero.",
+        "text_ru": "вниз, за исключением случаев, когда оно могло бы раньше добраться до места для разъезда.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "En los estrechamientos en tramos de gran pendiente sin señalización expresa, el vehículo que circule en sentido ascendente tiene preferencia debido a la dificultad inherente para reducir velocidad o detenerse rápidamente al subir. Sin embargo, si es posible que el vehículo descendente llegue antes a un apartadero, este último debe ceder la prioridad para permitir su paso seguro.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 12,
+    "question": {
+      "text_en": "If a load protrudes from the back of a car, should it be marked?",
+      "text_es": "Si una carga sobresale por la parte trasera de un coche, ¿debe señalizarse?",
+      "text_ru": "Если груз выступает из задней части автомобиля, нужно ли его обозначать?"
+    },
+    "image": "question_12.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Yes, both day and night.",
+        "text_es": "Sí, tanto de día como de noche.",
+        "text_ru": "Да, и днём, и ночью.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "Yes, but only at night or when there are weather conditions that significantly reduce visibility.",
+        "text_es": "Sí, pero solo de noche o cuando haya condiciones meteorológicas que reduzcan notablemente la visibilidad.",
+        "text_ru": "Да, но только ночью или в условиях плохой видимости (например, из‑за погодных явлений).",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "No, because it is not a vehicle exclusively intended for the transport of goods.",
+        "text_es": "No, porque no es un vehículo destinado exclusivamente al transporte de mercancías.",
+        "text_ru": "Нет — это не автомобиль, предназначенный исключительно для перевозки грузов.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Según el Reglamento General de Circulación en España, cuando una carga sobresale por la parte trasera de un turismo o cualquier otro vehículo, debe estar debidamente señalizada tanto de día como de noche. Esto es para garantizar la seguridad vial y asegurar que otros conductores puedan ver claramente la dimensión del vehículo y reaccionar adecuadamente a su presencia en la carretera.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 13,
+    "question": {
+      "text_en": "Is it allowed to park at an intersection?",
+      "text_es": "¿Está permitido estacionar en una intersección?",
+      "text_ru": "Разрешено ли парковаться на перекрестке?"
+    },
+    "image": "question_13.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Yes.",
+        "text_es": "Sí.",
+        "text_ru": "Да.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "No, when it prevents other vehicles from turning.",
+        "text_es": "No, si impide que otros vehículos giren.",
+        "text_ru": "Нет, если это мешает другим транспортным средствам поворачивать.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "Yes, if you use the emergency signal.",
+        "text_es": "Sí, si enciende las luces de emergencia.",
+        "text_ru": "Да, если включена аварийная сигнализация.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "De acuerdo con el Reglamento General de Circulación en España, estacionar en una intersección está prohibido si impide o dificulta el giro a otros vehículos. Las intersecciones son puntos críticos donde se cruzan múltiples flujos de tráfico y deben estar despejadas para garantizar la fluidez y seguridad del tránsito.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 14,
+    "question": {
+      "text_en": "Accidents due to sleepiness happen...",
+      "text_es": "Los accidentes por sueño ocurren...",
+      "text_ru": "Аварии из-за сонливости происходят..."
+    },
+    "image": "question_14.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "always at night.",
+        "text_es": "siempre de noche.",
+        "text_ru": "всегда ночью.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "also before the driver falls completely asleep.",
+        "text_es": "también antes de que el conductor se duerma por completo.",
+        "text_ru": "даже до того, как водитель полностью заснёт.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "only when the driver falls completely asleep.",
+        "text_es": "solo cuando el conductor se duerme por completo.",
+        "text_ru": "только когда водитель полностью заснёт.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Los accidentes debidos al sueño pueden ocurrir antes de que el conductor se quede totalmente dormido debido a la fatiga y somnolencia, las cuales son peligrosas porque disminuyen la atención del conductor. El Reglamento General de Circulación enfatiza la importancia de mantener una vigilancia constante al volante para garantizar la seguridad vial. La somnolencia puede manifestarse en cualquier momento, no solo por la noche, y es crítica detectar los signos tempranos para evitar accidentes.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 15,
+    "question": {
+      "text_en": "At the next intersection, which direction should you go?",
+      "text_es": "En la próxima intersección, ¿hacia dónde debe ir?",
+      "text_ru": "В каком направлении вам следует ехать на следующем перекрёстке?"
+    },
+    "image": "question_15.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Turn right.",
+        "text_es": "Girar a la derecha",
+        "text_ru": "Повернуть направо.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "Continue straight ahead.",
+        "text_es": "Seguir recto",
+        "text_ru": "Продолжить движение прямо.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "Turn left.",
+        "text_es": "Girar a la izquierda",
+        "text_ru": "Повернуть налево.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "La decisión correcta de continuar de frente en una intersección se basa en el cumplimiento de las señales de tráfico y semáforos vigentes. Según el Reglamento General de Circulación, los conductores deben seguir la indicación del semáforo o señal que indique seguir recto, siempre asegurándose de tener suficiente visibilidad y espacio para continuar sin peligro.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 16,
+    "question": {
+      "text_en": "If there are no lanes or parts of the road specially designated for vehicles for people with reduced mobility...",
+      "text_es": "Los vehículos de personas con movilidad reducida, si no existe una vía o parte de ella destinada especialmente para ellos...",
+      "text_ru": "Транспортные средства, предназначенные для людей с ограниченной подвижностью, если не существует дороги или её части, специально предназначенной для них..."
+    },
+    "image": "question_16.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "they can travel on the highway.",
+        "text_es": "pueden circular por autopista.",
+        "text_ru": "могут двигаться по автомагистрали.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "they can travel on the road.",
+        "text_es": "pueden circular por autovía.",
+        "text_ru": "могут двигаться по автодороге.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "they must travel on the shoulder, as long as it is passable and sufficient.",
+        "text_es": "deben circular por el arcén si es transitable y lo bastante ancho.",
+        "text_ru": "должны двигаться по обочине, если она проходима и достаточна по ширине.",
+        "is_correct": true
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Según el Reglamento General de Circulación en España, los vehículos para personas con movilidad reducida deben circular por el arcén si no hay una vía específicamente destinada para ellos. Esto es porque el arcén está designado para situaciones como estas, siempre y cuando sea transitable y suficiente para la circulación segura del vehículo.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 17,
+    "question": {
+      "text_en": "For optimal adjustment, the height of the top of the headrest should be placed...",
+      "text_es": "Para un ajuste óptimo, la parte superior del reposacabezas debe quedar...",
+      "text_ru": "Для оптимальной настройки верхняя часть подголовника должна располагаться..."
+    },
+    "image": "question_17.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "above the nape.",
+        "text_es": "por encima de la nuca",
+        "text_ru": "Выше затылка",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "below the nape.",
+        "text_es": "por debajo de la nuca",
+        "text_ru": "Ниже затылка",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "at the same height as the top of the head.",
+        "text_es": "a la misma altura que la parte superior de la cabeza",
+        "text_ru": "На уровне макушки головы",
+        "is_correct": true
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "En el Reglamento General de Circulación, aunque no se menciona específicamente la altura del reposacabezas en los vehículos, es fundamental que las características del asiento y sus ajustes proporcionen una protección adecuada al conductor y pasajeros. La posición correcta del reposacabezas ayuda a minimizar el riesgo de lesiones cervicales durante un accidente. Por ello, la altura óptima del reposacabezas debe ser tal que toque la parte superior de la cabeza, asegurando una protección efectiva en caso de colisión.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 18,
+    "question": {
+      "text_en": "In the driver, sleep causes that...",
+      "text_es": "La somnolencia hace que el conductor...",
+      "text_ru": "Сонливость приводит к тому, что водитель..."
+    },
+    "image": "question_18.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "reduces reaction time.",
+        "text_es": "tenga un tiempo de reacción menor.",
+        "text_ru": "время реакции уменьшается.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "behaves in a more dangerous way.",
+        "text_es": "se comporte de forma más peligrosa.",
+        "text_ru": "он ведёт себя более опасно.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "perceives the traffic environment better.",
+        "text_es": "perciba mejor el entorno del tráfico.",
+        "text_ru": "он хуже воспринимает окружающую дорожную обстановку.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "La somnolencia en el conductor es una de las condiciones más peligrosas, ya que provoca una disminución de la concentración, un empeoramiento de la percepción del entorno vial y una mayor propensión al riesgo. El conductor puede evaluar mal las distancias, no notar obstáculos y reaccionar con retraso. En España y otros países, la somnolencia es una de las principales causas de accidentes de tráfico, especialmente en carreteras y durante la noche. Se recomienda hacer pausas cada 2 horas o 200 km, así como evitar conducir en estado de fatiga.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 19,
+    "question": {
+      "text_en": "When the driver is distracted at the wheel...",
+      "text_es": "Cuando el conductor se distrae al volante...",
+      "text_ru": "Когда водитель отвлекается за рулём..."
+    },
+    "image": "question_19.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "the driver must signal it with emergency lights.",
+        "text_es": "debe encender las luces de emergencia.",
+        "text_ru": "должен включить аварийную сигнализацию.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "takes longer to react.",
+        "text_es": "tarda más en reaccionar.",
+        "text_ru": "реагирует медленнее.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "increases the vehicle's speed without realizing it.",
+        "text_es": "puede aumentar la velocidad del vehículo sin darse cuenta.",
+        "text_ru": "бессознательно увеличивает скорость автомобиля.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "La distracción al volante es uno de los factores más comunes que provocan accidentes de tráfico. Un conductor que no está concentrado en la carretera tarda más en reaccionar ante situaciones inesperadas, como la aparición de un peatón o la frenada brusca del vehículo delantero. En España, el uso del teléfono móvil mientras se conduce está estrictamente prohibido (excepto con manos libres), y su infracción conlleva multas. También pueden ser distracciones las conversaciones con pasajeros, la música alta o la búsqueda de objetos en el coche.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 20,
+    "question": {
+      "text_en": "What do the cones placed on the road indicate?",
+      "text_es": "¿Qué indican los conos en la calzada?",
+      "text_ru": "Что означают конусы, расставленные на проезжей части?"
+    },
+    "image": "question_20.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "The direction of traffic.",
+        "text_es": "El sentido de la circulación.",
+        "text_ru": "Указывают направление движения.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "They allow crossing the real or imaginary line that unites them, but with caution.",
+        "text_es": "Permiten atravesar la línea real o imaginaria que los une, pero con precaución.",
+        "text_ru": "Разрешают пересекать реальную или воображаемую линию, которую они образуют, но с осторожностью.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "They prohibit crossing the real or imaginary line that unites them.",
+        "text_es": "Prohíben atravesar la línea real o imaginaria que los une.",
+        "text_ru": "Запрещают пересекать реальную или воображаемую линию, которую они образуют.",
+        "is_correct": true
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Los conos de tráfico se utilizan para modificar temporalmente la organización del tráfico. Pueden señalar zonas de obras, lugares de accidentes u otras áreas que requieren restricción de acceso. En España, está prohibido atravesar la línea formada por los conos, ya que esto puede poner en peligro a los trabajadores de la carretera u otros usuarios de la vía. Los conductores deben prestar atención a las señales temporales y las indicaciones para evitar multas y situaciones de peligro.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 21,
+    "question": {
+      "text_en": "In general, is it allowed to park a motorcycle on the sidewalk?",
+      "text_es": "En general, ¿se permite aparcar una motocicleta en la acera?",
+      "text_ru": "В целом разрешено ли парковать мотоцикл на тротуаре?"
+    },
+    "image": "question_21.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "No, because it is forbidden to park on the sidewalk.",
+        "text_es": "No, está prohibido aparcar en la acera.",
+        "text_ru": "Нет, потому что парковка на тротуаре запрещена.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "Yes, on weekdays.",
+        "text_es": "Sí, en días laborables.",
+        "text_ru": "Да, в рабочие дни.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Yes, only on holidays.",
+        "text_es": "Sí, solo los días festivos.",
+        "text_ru": "Да, только в праздничные дни.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Aparcar en la acera está prohibido en España, a menos que se indique lo contrario mediante señales específicas o normativas municipales. Las aceras están destinadas exclusivamente a los peatones, y el incumplimiento de esta norma puede conllevar una multa. En algunas ciudades se permite estacionar vehículos de dos ruedas (bicicletas, motocicletas) en la acera, pero solo si lo autorizan las normativas locales y no obstaculizan el paso de los peatones.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 22,
+    "question": {
+      "text_en": "What is the factor that most influences traffic accidents?",
+      "text_es": "¿Qué factor influye más en los accidentes de tráfico?",
+      "text_ru": "Какой фактор в наибольшей степени влияет на возникновение дорожно-транспортных происшествий?"
+    },
+    "image": "question_22.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "The human factor.",
+        "text_es": "Factor humano",
+        "text_ru": "Человеческий фактор",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "The route and environment factor.",
+        "text_es": "Condiciones de la vía y del entorno",
+        "text_ru": "Условия дорожного полотна и окружающей среды",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "The vehicle factor.",
+        "text_es": "Condiciones del vehículo",
+        "text_ru": "Состояние транспортного средства",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "El factor humano es la principal causa de los accidentes de tráfico. Según las estadísticas, los errores de los conductores, el exceso de velocidad, la conducción bajo los efectos del alcohol o drogas, la distracción y el incumplimiento de las normas de tráfico son las causas más frecuentes de los accidentes. En España existen estrictos límites de alcohol en sangre (0,5 g/l para conductores normales y 0,3 g/l para profesionales y noveles), así como elevadas multas por exceso de velocidad y uso del teléfono móvil mientras se conduce.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 23,
+    "question": {
+      "text_en": "Is reading a newspaper or looking at a map while driving a risk to driving?",
+      "text_es": "¿Leer un periódico o mirar un mapa mientras conduce es peligroso?",
+      "text_ru": "Чтение газеты или просмотр карты во время вождения — опасно?"
+    },
+    "image": "question_23.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Yes.",
+        "text_es": "Sí.",
+        "text_ru": "Да.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "Reading a newspaper yes, but looking at a map no.",
+        "text_es": "Leer un periódico sí, pero no mirar un mapa.",
+        "text_ru": "Чтение газеты — да, а просмотр карты — нет.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Only if you take your eyes off the road for more than two seconds.",
+        "text_es": "Solo si aparta la vista de la carretera más de dos segundos.",
+        "text_ru": "Только если вы отводите взгляд от дороги на более чем две секунды.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "La distracción del conductor es una de las principales causas de accidentes de tráfico. Leer un periódico o mirar un mapa mientras se conduce requiere una gran cantidad de atención, lo que reduce la capacidad del conductor para controlar el vehículo y reaccionar a las condiciones del tráfico. Según el Reglamento General de Circulación de España, los conductores deben prestar plena atención a la conducción (artículo 18). El incumplimiento de esta norma puede conllevar una multa de hasta 200 euros. Además, los estudios indican que una distracción breve (por ejemplo, de 2 segundos) a 100 km/h implica recorrer más de 55 metros sin control.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 24,
+    "question": {
+      "text_en": "The maximum speed for a mixed adaptable vehicle on a highway is...",
+      "text_es": "¿Cuál es la velocidad máxima en la autopista para un vehículo mixto adaptable?",
+      "text_ru": "Какова максимальная скорость на автомагистрали для универсального транспортного средства?"
+    },
+    "image": "question_24.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "100 km/h",
+        "text_es": "100 km/h.",
+        "text_ru": "100 км/ч",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "120 km/h",
+        "text_es": "120 km/h.",
+        "text_ru": "120 км/ч",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "90 km/h",
+        "text_es": "90 km/h.",
+        "text_ru": "90 км/ч",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Los límites de velocidad para vehículos mixtos adaptables dependen del tipo de vía. En España, la velocidad máxima para un vehículo mixto adaptable en autopista o autovía es de 100 km/h, mientras que para turismos y motocicletas es de 120 km/h. Este límite está establecido según el artículo 48 del Reglamento General de Circulación. Superar la velocidad permitida puede implicar una sanción económica, cuyo importe varía en función del exceso de velocidad.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 25,
+    "question": {
+      "text_en": "This animal is in the gully, should you give way?",
+      "text_es": "Este animal está en una cañada (camino para animales). ¿Debe usted cederle el paso?",
+      "text_ru": "Это животное находится на скотопрогонной дороге (cañada). Должны ли вы уступить ему дорогу?"
+    },
+    "image": "question_25.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Yes.",
+        "text_es": "Sí.",
+        "text_ru": "Да.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "No, because it is an animal.",
+        "text_es": "No, porque es un animal.",
+        "text_ru": "Нет, потому что это просто животное.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Yes, because it is already crossing the road.",
+        "text_es": "Sí, porque ya está cruzando la vía.",
+        "text_ru": "Да, потому что оно уже пересекает дорогу.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "La prioridad de los animales en la vía está establecida en casos en los que atraviesan rutas tradicionales de migración o zonas de pastoreo. En España, los animales que se desplazan por las cañadas reales (vías pecuarias tradicionales) tienen prioridad sobre los vehículos (artículo 23 del Reglamento General de Circulación). El conductor debe ceder el paso para evitar colisiones, ya que los impactos con animales grandes pueden tener consecuencias graves.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 26,
+    "question": {
+      "text_en": "One of the factors that promote accidents among young drivers is...",
+      "text_es": "Uno de los factores que provoca más accidentes entre los jóvenes conductores es...",
+      "text_ru": "Одним из факторов, вызывающих повышенную аварийность среди молодых водителей, является..."
+    },
+    "image": "question_26.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "greater ability to control the vehicle.",
+        "text_es": "una mayor capacidad para controlar el vehículo.",
+        "text_ru": "Лучшее умение управлять автомобилем.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "the perception of driving as something dangerous.",
+        "text_es": "la percepción de la conducción como algo peligroso.",
+        "text_ru": "Восприятие вождения как нечто безопасное.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "less perception of risk.",
+        "text_es": "una menor percepción del riesgo.",
+        "text_ru": "Меньшее осознание риска.",
+        "is_correct": true
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "La menor percepción del riesgo en los conductores jóvenes es una de las razones de la alta tasa de accidentalidad en este grupo. Los conductores con poca experiencia suelen subestimar los peligros asociados con la velocidad, las maniobras bruscas y la falta de atención. Según los estudios, los conductores jóvenes tienen un mayor riesgo de sufrir un accidente, especialmente durante los dos primeros años tras obtener el carné de conducir. Por esta razón, en muchos países, incluida España, se aplican restricciones adicionales, como límites de velocidad más bajos o prohibiciones de conducción nocturna.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 27,
+    "question": {
+      "text_en": "If your vehicle is heavily loaded...",
+      "text_es": "Si su vehículo va muy cargado...",
+      "text_ru": "Если ваш автомобиль сильно загружен, это повлияет на:"
+    },
+    "image": "question_27.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "It will affect only the consumption.",
+        "text_es": "Afectará solo al consumo de combustible.",
+        "text_ru": "Это повлияет только на расход топлива.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "It will affect the consumption and the braking distance.",
+        "text_es": "Afectará al consumo de combustible y a la distancia de frenado.",
+        "text_ru": "Это повлияет и на расход топлива, и на тормозной путь.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "It will affect the consumption, the braking distance, and the stability.",
+        "text_es": "Afectará al consumo de combustible, a la distancia de frenado y a la estabilidad del vehículo.",
+        "text_ru": "Это повлияет на расход топлива, на тормозной путь и на устойчивость автомобиля.",
+        "is_correct": true
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "La sobrecarga del vehículo no solo afecta al consumo de combustible, sino también a la distancia de frenado y a la estabilidad. El exceso de peso aumenta la inercia, lo que requiere una mayor distancia para detenerse y puede afectar negativamente el manejo del vehículo, especialmente en curvas. Según el artículo 11 del Reglamento General de Circulación, el conductor debe garantizar una correcta distribución de la carga para no comprometer la seguridad vial. Los vehículos sobrecargados también sufren un desgaste más rápido de los neumáticos y los frenos.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 28,
+    "question": {
+      "text_en": "What will be the maximum speed on this road?",
+      "text_es": "¿Cuál es la velocidad máxima en esta carretera?",
+      "text_ru": "Какова максимально разрешённая скорость на этой дороге?"
+    },
+    "image": "question_28.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "100 km/h",
+        "text_es": "100 km/h",
+        "text_ru": "100 км/ч",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "90 km/h",
+        "text_es": "90 km/h",
+        "text_ru": "90 км/ч",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "120 km/h",
+        "text_es": "120 km/h",
+        "text_ru": "120 км/ч",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Según el Reglamento General de Circulación en España, la velocidad máxima permitida en autovías es de 120 km/h para coches y motocicletas, mientras que para vehículos con una masa superior a 3.500 kg es de 90 km/h. Por lo tanto, si se trata de un camino en autopista y el vehículo pesa más de 3.500 kg, la velocidad máxima permitida será de 90 km/h.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 29,
+    "question": {
+      "text_en": "If you have sleep problems, you should keep in mind that...",
+      "text_es": "Si tiene problemas para dormir, debe tener en cuenta que...",
+      "text_ru": "Если у вас проблемы со сном, учтите, что..."
+    },
+    "image": "question_29.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "you should sleep more hours to drive.",
+        "text_es": "Debe dormir más antes de conducir.",
+        "text_ru": "Вам нужно больше выспаться перед тем, как сесть за руль.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "you are not in perfect condition to drive.",
+        "text_es": "No está en condiciones de conducir.",
+        "text_ru": "Вы не в состоянии, позволяющем безопасно управлять транспортным средством.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "it is advisable to take abundant stimulant substances to stay awake.",
+        "text_es": "No es recomendable tomar muchos estimulantes para mantenerse despierto.",
+        "text_ru": "Не рекомендуется употреблять большое количество стимуляторов, чтобы оставаться бодрым.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "De acuerdo con el Reglamento General de Circulación en España, los conductores deben encontrarse siempre en condiciones físicas y psicológicas adecuadas para conducir un vehículo. Las personas que tienen problemas de sueño no están en las mejores condiciones para manejar, ya que el cansancio puede afectar la capacidad de concentración, reacción y toma de decisiones, aumentando significativamente los riesgos de accidente.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 30,
+    "question": {
+      "text_en": "What is the maximum speed allowed for a car on an urban road with a single roadway and sidewalk platform?",
+      "text_es": "¿Cuál es la velocidad máxima permitida para un coche en una vía urbana de un solo carril con acera?",
+      "text_ru": "Какова максимально допустимая скорость для автомобиля на городской улице с одной полосой движения и тротуаром?"
+    },
+    "image": "question_30.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "45 km/h",
+        "text_es": "45 km/h.",
+        "text_ru": "45 км/ч",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "50 km/h",
+        "text_es": "50 km/h.",
+        "text_ru": "50 км/ч",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "20 km/h",
+        "text_es": "20 km/h.",
+        "text_ru": "20 км/ч",
+        "is_correct": true
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "En una vía urbana con plataforma única de calzada y acera, el límite de velocidad máxima para un turismo es de 20 km/h debido a la necesidad de aumentar la seguridad en áreas donde los vehículos comparten espacio con peatones. Esto se establece para minimizar el riesgo y daño potencial a los peatones y otros usuarios vulnerables de la vía.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 31,
+    "question": {
+      "text_en": "If you have a GPS navigator installed, you should keep in mind that...",
+      "text_es": "Si tienes instalado un navegador GPS, debes tener en cuenta que...",
+      "text_ru": "Если установлен GPS-навигатор, следует учитывать, что..."
+    },
+    "image": "question_31.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "while driving, it is not advisable to take your eyes off the navigator.",
+        "text_es": "No apartes la vista del GPS mientras conduces.",
+        "text_ru": "Во время вождения не следует отвлекаться на навигатор.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "the navigator's instructions prevail over the road signs.",
+        "text_es": "Las indicaciones del GPS no tienen prioridad sobre las señales de tráfico.",
+        "text_ru": "Указания навигатора не имеют приоритета над дорожными знаками.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "the driver's judgement should prevail over the navigator's instructions.",
+        "text_es": "El criterio del conductor debe prevalecer sobre las indicaciones del GPS.",
+        "text_ru": "Суждение водителя должно преобладать над указаниями навигатора.",
+        "is_correct": true
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Según el Reglamento General de Circulación en España, los conductores deben estar atentos al entorno y no confiar únicamente en las indicaciones del navegador GPS mientras conducen. Esto se debe a que el criterio humano es necesario para adaptarse a condiciones inesperadas o cambios en la señalización vial que podrían no estar actualizados en el sistema de navegación.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 32,
+    "question": {
+      "text_en": "At a pedestrian crossing, is it allowed to stop or park?",
+      "text_es": "¿Se permite parar o estacionar en un paso de peatones?",
+      "text_ru": "Разрешено ли останавливаться или парковаться на пешеходном переходе?"
+    },
+    "image": "question_33.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "No.",
+        "text_es": "No.",
+        "text_ru": "Ни то, ни другое.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "Yes.",
+        "text_es": "Sí.",
+        "text_ru": "Да.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Stopping is allowed, but parking is forbidden.",
+        "text_es": "Se permite parar, pero no estacionar.",
+        "text_ru": "Разрешено останавливаться, но запрещено парковаться.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Según el Reglamento General de Circulación en España, los pasos para peatones están destinados exclusivamente al paso seguro y cómodo de las personas a pie. Está estrictamente prohibido detenerse o estacionar en estos lugares, ya que se interrumpiría la visibilidad y el flujo adecuado del tráfico, poniendo en peligro tanto a los peatones como a otros conductores.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 33,
+    "question": {
+      "text_en": "When is the use of a mobile phone allowed while driving?",
+      "text_es": "¿Cuándo está permitido usar el teléfono móvil mientras se conduce?",
+      "text_ru": "Когда разрешено использовать мобильный телефон во время вождения?"
+    },
+    "image": "question_36.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Only when a hands-free device is available.",
+        "text_es": "Solo cuando se use un dispositivo de manos libres.",
+        "text_ru": "Только при использовании устройства hands‑free (системы громкой связи), не требующего держать телефон в руках.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "Always.",
+        "text_es": "Siempre.",
+        "text_ru": "Всегда.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Never, because it can cause distractions.",
+        "text_es": "Nunca, porque puede causar distracciones.",
+        "text_ru": "Никогда, потому что это может отвлечь водителя.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "El uso del teléfono móvil mientras se conduce está prohibido a menos que se utilice un dispositivo manos libres. Esto es para minimizar las distracciones y aumentar la seguridad en la carretera, permitiendo al conductor mantener ambas manos en el volante.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 34,
+    "question": {
+      "text_en": "If you use a helmet without a shield or visor, is it advisable to use safety glasses?",
+      "text_es": "Si usas un casco sin pantalla ni visera, ¿es aconsejable llevar gafas de protección?",
+      "text_ru": "Если вы носите шлем без щитка или козырька, рекомендуется ли надевать защитные очки?"
+    },
+    "image": "question_39.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "No, it's not necessary.",
+        "text_es": "No, no es necesario.",
+        "text_ru": "Нет, это не необходимо.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "Yes, to protect the eyes.",
+        "text_es": "Sí, para proteger los ojos.",
+        "text_ru": "Да, чтобы защитить глаза.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "No, because it is mandatory for all helmets to have a screen.",
+        "text_es": "No, porque todos los cascos deben tener pantalla.",
+        "text_ru": "Нет, потому что все шлемы должны иметь щиток.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "De acuerdo con el Reglamento General de Circulación en España, es obligatorio que los motoristas utilicen cascos homologados para protegerse durante la conducción. Aunque no hay una normativa específica que exija el uso de gafas de seguridad junto al casco sin pantalla o visera, se recomienda su utilización para proteger los ojos de posibles impactos de insectos, escombros u otros objetos que puedan volar hacia la cara. Este consejo está orientado a garantizar una mayor seguridad del conductor en circunstancias imprevistas.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 35,
+    "question": {
+      "text_en": "If you are driving at 60 km/h, which lane should you be in?",
+      "text_es": "Si circula a 60 km/h, ¿en qué carril debe ir?",
+      "text_ru": "При движении со скоростью 60 км/ч по какой полосе вы должны ехать?"
+    },
+    "image": "question_40.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "The left lane.",
+        "text_es": "En el carril izquierdo.",
+        "text_ru": "По левой полосе.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "The right lane.",
+        "text_es": "En el carril derecho.",
+        "text_ru": "По правой полосе.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "The middle lane.",
+        "text_es": "En el carril central.",
+        "text_ru": "По центральной полосе.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "En vías con varios carriles en el mismo sentido, la regla general es circular por el carril de la derecha salvo que necesite adelantar, se vaya a girar a la izquierda o señales o instrucciones obliguen a otro carril. Por tanto, si circula a 60 km/h y no está adelantando, debe ocupar el carril de la derecha. Esta obligación de usar preferentemente el carril derecho y reservar los carriles izquierdos para el adelantamiento y para circulación más rápida está recogida en el Reglamento General de Circulación (Real Decreto 1428/2003) y en sus disposiciones sobre la posición en la vía y uso de carriles.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 36,
+    "question": {
+      "text_en": "On a two-way road, which side of an island will you drive on?",
+      "text_es": "En una vía de doble sentido, ¿por qué lado se debe rodear una isleta?",
+      "text_ru": "На дороге с двусторонним движением по какой стороне следует объезжать островок?"
+    },
+    "image": "question_41.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "On your right.",
+        "text_es": "Por el lado derecho.",
+        "text_ru": "По правой стороне.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "On your left.",
+        "text_es": "Por el lado izquierdo.",
+        "text_ru": "По левой стороне.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "On your right or left, indistinctly.",
+        "text_es": "Por el lado derecho o por el lado izquierdo, indistintamente.",
+        "text_ru": "По правой или по левой стороне — без разницы.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "El Reglamento General de Circulación establece que en las vías de doble sentido el tráfico circula por la derecha. Cuando la vía está dividida por una isleta, cada carril mantiene su dirección habitual de circulación; por ello los vehículos deben permanecer por la derecha de la isleta. Sólo en caso de señalización o señal de tráfico específica se permite cruzar la isleta.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 37,
+    "question": {
+      "text_en": "Should a motorcyclist injured in an accident be removed his helmet?",
+      "text_es": "¿Hay que quitar el casco a un motociclista herido en un accidente?",
+      "text_ru": "Нужно ли снимать шлем у мотоциклиста, пострадавшего в аварии?"
+    },
+    "image": "question_42.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "No, as a general rule.",
+        "text_es": "No, en general no.",
+        "text_ru": "Нет, как правило, снимать не следует.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "Yes, to breathe better.",
+        "text_es": "Sí, para que pueda respirar mejor.",
+        "text_ru": "Да, если есть явная необходимость обеспечить дыхательные пути.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "I will do what he tells me.",
+        "text_es": "Haré lo que me diga.",
+        "text_ru": "Сделаю то, что он скажет.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "En el Reglamento General de Circulación, el casco de protección es obligatorio para el conductor de motocicleta (artículo 119.3). La normativa no dispone de una excepción que exija quitar el casco a un motorista herido; por el contrario, la práctica de la protección indica que el casco debe permanecer puesto hasta que un profesional sanitario lo retire. Quitarlo sin indicación médica puede agravar lesiones en la cabeza y la vía aérea, por lo que la norma general aconseja no quitarlo.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 38,
+    "question": {
+      "text_en": "At this intersection, what signal must the blue vehicle obey to turn right?",
+      "text_es": "¿Qué señal debe seguir el vehículo azul para girar a la derecha en esta intersección?",
+      "text_ru": "Какому дорожному знаку должен подчиняться синий автомобиль на этом перекрёстке, чтобы повернуть направо?"
+    },
+    "image": "question_43.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "The give way signal.",
+        "text_es": "La señal 'Ceda el paso'.",
+        "text_ru": "Знаку «Уступите дорогу».",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "The stop signal, because it is on the left.",
+        "text_es": "La señal de 'Stop', por estar situada a la izquierda.",
+        "text_ru": "Знаку «STOP», потому что он расположен слева.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "The stop signal, as it is the most restrictive.",
+        "text_es": "La señal de 'Stop', por ser la más restrictiva.",
+        "text_ru": "Знаку «STOP», поскольку он наиболее ограничительный.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "En las intersecciones señalizadas, la prioridad se regula por las señales verticales. Según el Artículo 5 y Artículo 132 del Reglamento General de Circulación, el conductor debe obedecer la señal que le indique la obligación de ceder el paso. En el caso descrito, la señal de «Ceda el paso» está situada en la esquina que controla el giro del vehículo azul; por lo tanto, ese vehículo debe ceder el paso a los vehículos que circulen por la vía preferente y, si es necesario, detenerse. La señal de stop ubicada en otra esquina no afecta a ese giro, porque su ámbito de aplicación es distinto y la prioridad no se recurre a ella cuando hay una señal de ceda el paso más cercana y pertinente. La señal de stop es más restrictiva, pero no tiene autoridad sobre la señal de ceda el paso cuando ambas están presentes en un mismo cruce: la señal de ceda el paso determina la obligación de ceder, no la de detenerse completa, a menos que la señal de stop también se aplique directamente al giro del vehículo azul.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 39,
+    "question": {
+      "text_en": "A vehicle is traveling in the left lane, is it allowed to overtake it on the right?",
+      "text_es": "Un vehículo circula por el carril izquierdo. ¿Se puede adelantar por la derecha?",
+      "text_ru": "Транспортное средство движется по левой полосе. Можно ли обогнать его справа?"
+    },
+    "image": "question_52.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "No, overtaking will always be done on the left.",
+        "text_es": "No, siempre se debe adelantar por la izquierda.",
+        "text_ru": "Нет, обгон всегда следует выполнять слева.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "Yes, as long as there are several lanes in the same direction.",
+        "text_es": "Sí, cuando hay varios carriles en el mismo sentido.",
+        "text_ru": "Да, если есть несколько полос в одном направлении.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Yes, when the lanes are delimited and the road is within a populated area.",
+        "text_es": "Sí, cuando los carriles están marcados y la vía está en una zona urbana.",
+        "text_ru": "Да, когда полосы ограничены и дорога находится в населенном пункте.",
+        "is_correct": true
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "En España, adelantar por la derecha está generalmente prohibido. Según el artículo 82 del Reglamento de Circulación, el adelantamiento debe realizarse por la izquierda. No obstante, hay una excepción: en vías urbanas, cuando los carriles están claramente delimitados por marcas viales, se permite adelantar por la derecha. Esto se debe a que en entornos urbanos los vehículos pueden moverse a diferentes velocidades en distintos carriles, lo que facilita la fluidez del tráfico.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 40,
+    "question": {
+      "text_en": "In a narrow pass, what does this sign indicate?",
+      "text_es": "¿Qué indica esta señal en un paso estrecho?",
+      "text_ru": "Что означает этот знак на узком проезде?"
+    },
+    "image": "question_53.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Vehicles coming in the opposite direction have preference.",
+        "text_es": "Tienen preferencia los vehículos que vienen en sentido contrario.",
+        "text_ru": "Приоритет имеют транспортные средства, движущиеся навстречу.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "The vehicle closer to the sign has preference.",
+        "text_es": "Tiene preferencia el vehículo más cercano a la señal.",
+        "text_ru": "Преимущество у транспортного средства, находящегося ближе к знаку.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "I have the right of way.",
+        "text_es": "Yo tengo preferencia de paso.",
+        "text_ru": "Я имею преимущество в проезде.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "La señal 'Ceda el paso a los vehículos en sentido contrario' indica que en un paso estrecho tienen preferencia los vehículos que vienen en sentido contrario. El conductor debe ceder el paso si el vehículo que circula en dirección opuesta ya ha iniciado su paso por la zona estrecha. Esta señal se encuentra en puentes estrechos, túneles y carreteras de un solo carril donde el cruce es difícil.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 41,
+    "question": {
+      "text_en": "Can some motorcycles have braking stability systems or airbag?",
+      "text_es": "¿Pueden algunas motocicletas llevar sistemas de estabilidad al frenar o airbags?",
+      "text_ru": "Могут ли некоторые мотоциклы оснащаться системами стабилизации при торможении или подушками безопасности?"
+    },
+    "image": "question_54.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "No, these systems are only available for cars.",
+        "text_es": "No, estos sistemas solo están disponibles para los coches.",
+        "text_ru": "Нет, такие системы доступны только для легковых автомобилей.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "No, it is forbidden.",
+        "text_es": "No, está prohibido.",
+        "text_ru": "Нет, это запрещено.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Yes, to prevent accidents or reduce the severity of injuries.",
+        "text_es": "Sí, para evitar accidentes o reducir la gravedad de las lesiones.",
+        "text_ru": "Да, чтобы предотвратить аварии или уменьшить тяжесть травм.",
+        "is_correct": true
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Algunas motocicletas pueden llevar sistemas de estabilidad de frenado (como ABS) y airbags. Estas tecnologías ayudan a reducir el riesgo de accidentes y la gravedad de las lesiones en caso de colisión. Por ejemplo, el ABS evita el bloqueo de ruedas en frenadas bruscas y el airbag protege al motorista en caso de impacto frontal.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 42,
+    "question": {
+      "text_en": "A two-wheeled vehicle equipped with an internal combustion engine may be classified as a motorcycle provided that ...",
+      "text_es": "Se considerará motocicleta un vehículo de dos ruedas con motor de combustión interna cuando...",
+      "text_ru": "Двухколёсное транспортное средство с двигателем внутреннего сгорания считается мотоциклом, если..."
+    },
+    "image": "question_55.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "It has at least two seats, including the driver's.",
+        "text_es": "tenga al menos dos plazas, incluida la del conductor.",
+        "text_ru": "имеет как минимум два посадочных места, включая место водителя.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "It can reach a maximum speed higher than 40km/h.",
+        "text_es": "pueda alcanzar una velocidad máxima superior a 40 km/h.",
+        "text_ru": "может развивать максимальную скорость более 40 км/ч.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Its displacement is greater than 50 cubic centimeters.",
+        "text_es": "tenga una cilindrada superior a 50 cm³.",
+        "text_ru": "его рабочий объём превышает 50 см³.",
+        "is_correct": true
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Un vehículo de dos ruedas con motor de combustión interna se considera motocicleta si su cilindrada es superior a 50 centímetros cúbicos. De lo contrario, se clasifica como ciclomotor. Las motocicletas pueden circular por autopistas, mientras que los ciclomotores están restringidos a carreteras locales.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 43,
+    "question": {
+      "text_en": "What causes more distractions while driving?",
+      "text_es": "¿Qué distrae más al conducir?",
+      "text_ru": "Что отвлекает больше всего при вождении?"
+    },
+    "image": "question_56.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Using the mobile phone.",
+        "text_es": "Usar el móvil",
+        "text_ru": "Использовать мобильный телефон",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "Observing the signs.",
+        "text_es": "Mirar las señal",
+        "text_ru": "Наблюдение за дорожными знаками",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Listening to the radio.",
+        "text_es": "Escuchar la radio",
+        "text_ru": "Прослушивание радио",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "El mayor factor de distracción en la conducción es usar el teléfono móvil. Hablar por teléfono, enviar mensajes o mirar la pantalla aumenta significativamente el tiempo de reacción del conductor y el riesgo de accidente. Los estudios muestran que usar el teléfono mientras se conduce puede ser tan peligroso como conducir bajo los efectos del alcohol.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 44,
+    "question": {
+      "text_en": "What should you do if, due to traffic circumstances, you have to significantly reduce your speed?",
+      "text_es": "¿Qué debe hacer si, por el tráfico, tiene que reducir mucho la velocidad?",
+      "text_ru": "Что вам следует сделать, если из‑за дорожного движения вам приходится значительно снижать скорость?"
+    },
+    "image": "question_64.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Brake suddenly.",
+        "text_es": "Frenar bruscamente.",
+        "text_ru": "Резко затормозить.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "Signal it with the position lighting.",
+        "text_es": "Señalizarlo con las luces de emergencia.",
+        "text_ru": "Включить аварийную световую сигнализацию.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Make sure you can do it safely and signal it with the brake lights.",
+        "text_es": "Asegurarse de que puede hacerlo sin peligro y avisar con las luces de freno.",
+        "text_ru": "Убедиться, что вы можете сделать это безопасно, и предупредить об этом стоп‑сигналами.",
+        "is_correct": true
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Cuando un conductor debe reducir considerablemente la velocidad por circunstancias del tráfico, el Reglamento General de Circulación (art. 22) exige que lo haga de manera que no exista riesgo para otros conductores y que informe con antelación a los vehículos que circulan detrás.  La forma de advertencia prevista es la activación de las luces indicadoras de freno (luces de frenado), las cuales son obligatorias para alertar a los que siguen al vehículo.  Otras luces, como las de posición, no cumplen la función de advertencia de una reducción de velocidad, y frenar bruscamente puede provocar colisiones.  Además, el art. 19.1 exige que el conductor adapte su velocidad a las condiciones de la vía y a su propio riesgo, y el art. 46 refuerza la necesidad de moderar la velocidad en situaciones de riesgo.  Por eso la opción correcta es “asegurarse de que puede hacerlo sin peligro y señalizarlo con las luces de frenado”.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 45,
+    "question": {
+      "text_en": "What does this sign indicate?",
+      "text_es": "¿Qué indica esta señal?",
+      "text_ru": "Что означает этот знак?"
+    },
+    "image": "question_67.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "The length at which the danger exists.",
+        "text_es": "La longitud del tramo con peligro.",
+        "text_ru": "Длина опасного участка.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "The remaining distance to get to a stop.",
+        "text_es": "La distancia que falta para llegar a una señal de STOP.",
+        "text_ru": "Оставшееся расстояние до знака «STOP».",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "That there is a danger at 4.25 kilometers.",
+        "text_es": "Que hay un peligro a 4,25 km.",
+        "text_ru": "Опасность находится на расстоянии 4,25 км.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "La señal de distancia \"4,25 km\" es una señal de advertencia de distancia que, según el §3.12 del Reglamento General de Circulación (RGC), indica la distancia que queda hasta la zona de peligro o al punto de referencia señalado. Se coloca en carreteras de doble sentido, especialmente autopistas o autovías, y sirve para que el conductor conozca el tramo de carretera en el que debe prestar especial atención. La respuesta correcta es la opción 1 porque la señal muestra la longitud del tramo donde existe el peligro, no la distancia a un stop (opción 2) ni simplemente la presencia de un peligro a 4,25 km (opción 3), aunque la última sería parcialmente coherente. En resumen, la señal comunica la distancia a la zona de riesgo, permitiendo al conductor planificar su conducción de manera segura.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 46,
+    "question": {
+      "text_en": "In the event of hitting pedestrians, where do the most serious accidents occur?",
+      "text_es": "En caso de atropello a peatones, ¿en qué tipo de vías se producen los accidentes más graves?",
+      "text_ru": "В случае наезда на пешеходов, на каких типах дорог происходят наиболее тяжёлые аварии?"
+    },
+    "image": "question_72.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "In town.",
+        "text_es": "En zonas urbanas.",
+        "text_ru": "В населённых пунктах.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "On crossings.",
+        "text_es": "En intersecciones.",
+        "text_ru": "На перекрёстках.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "On conventional roads.",
+        "text_es": "En carreteras convencionales.",
+        "text_ru": "На дорогах вне населённых пунктов (обычные дороги).",
+        "is_correct": true
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Según el Reglamento General de Circulación, las carreteras convencionales (artículo 65) son vías públicas pavimentadas situadas fuera de los poblados, donde la velocidad de circulación suele ser más alta y la presencia de zonas peatonales protegidas es limitada. En estos tramos la combinación de mayor velocidad, mayor volumen de tráfico y menor infraestructura de protección para peatones hace que un atropello sea más probable y, sobre todo, más grave. En los poblados el límite de velocidad es más bajo (generalmente 20–30 km/h) y en las travesías se suele reducir la velocidad y el flujo, lo que disminuye la gravedad de los accidentes. Por tanto, la regla que se aplica es que los atropellos de peatones más graves ocurren en carreteras convencionales.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 47,
+    "question": {
+      "text_en": "Is speed a risk factor that causes accidents?",
+      "text_es": "¿La velocidad es un factor de riesgo que causa accidentes?",
+      "text_ru": "Является ли скорость фактором риска, приводящим к авариям?"
+    },
+    "image": "question_73.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "No, because it only aggravates the consequences of an accident but does not cause them.",
+        "text_es": "No. Solo empeora las consecuencias de un accidente, no lo provoca.",
+        "text_ru": "Нет. Скорость лишь ухудшает последствия аварии, но не является её причиной.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "Yes, and for that reason, it should be appropriate at all times.",
+        "text_es": "Sí. Por eso la velocidad debe ser la adecuada en cada momento.",
+        "text_ru": "Да. Поэтому скорость должна соответствовать дорожной обстановке в каждый момент.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "No, if the vehicle has the latest security systems.",
+        "text_es": "No. Si el vehículo cuenta con los últimos sistemas de seguridad, la velocidad no sería la causa.",
+        "text_ru": "Нет. Если в автомобиле установлены современные системы безопасности, скорость сама по себе не является причиной.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "En el Reglamento General de Circulación (RGC) y en el Código de Tráfico y Seguridad Vial (CTSV) se reconoce expresamente que la velocidad inadecuada es uno de los principales factores de riesgo que contribuyen a la ocurrencia de accidentes de tráfico. El RGC, art. 28, obliga al conductor a respetar los límites de velocidad y a adaptar su velocidad a las condiciones del entorno, del vehículo y del estado personal. En el CTSV, § 13, apartado d), se establece que la velocidad como factor de riesgo es “uno de los principales factores que provocan accidentes”, y se indica la necesidad de controlar la velocidad en función de las características del entorno. Por tanto, la velocidad no solo agrava las consecuencias de un choque, sino que, al reducir el tiempo de reacción y aumentar la distancia de frenado, es una causa directa de accidentes. Las medidas de seguridad activa (sensores de velocidad, frenado automático, etc.) no eliminan este riesgo, sino que solo mitigan sus efectos. Con esta normativa, la respuesta correcta es: Sí, y por eso debe ser la adecuada en cada momento.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 48,
+    "question": {
+      "text_en": "When the bus, which travels in the bus lane, travels faster than the rest of the vehicles, is it considered overtaking?",
+      "text_es": "¿Se considera adelantamiento si un autobús que circula por el carril de autobuses va más rápido que los demás vehículos?",
+      "text_ru": "Считается ли это обгоном, если автобус, движущийся по автобусной полосе, едет быстрее остальных транспортных средств?"
+    },
+    "image": "question_74.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "No.",
+        "text_es": "No.",
+        "text_ru": "Нет.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "Yes.",
+        "text_es": "Sí.",
+        "text_ru": "Да.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Yes, because in urban areas it is allowed to overtake on the right.",
+        "text_es": "Sí, porque en ciudad está permitido adelantar por la derecha.",
+        "text_ru": "Да, потому что в населённых пунктах разрешено обгонять справа.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "En el Reglamento General de Circulación el adelantamiento se define como la acción de pasar un vehículo que circula en el mismo sentido. El autobús que circula por el carril reservado al tráfico bus solo puede ir a una velocidad mayor que la del resto, pero no pasa a otro vehículo; por eso no se considera un adelantamiento. En el Artículo 83, apartado 3, se indica que en carriles dedicados al tráfico de determinados vehículos el hecho de avanzar más rápidamente no se considera un adelantamiento.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 49,
+    "question": {
+      "text_en": "Can a car with a trailer travel on a VAO lane?",
+      "text_es": "¿Puede un coche con remolque usar un apartadero para adelantar?",
+      "text_ru": "Можно ли легковому автомобилю с прицепом воспользоваться карманом для обгона?"
+    },
+    "image": "question_84.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Yes.",
+        "text_es": "Sí.",
+        "text_ru": "Да.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "No.",
+        "text_es": "No.",
+        "text_ru": "Нет.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "Yes, if it does not exceed 750 kg of MMA.",
+        "text_es": "Sí, si la masa máxima autorizada del remolque no supera los 750 kg.",
+        "text_ru": "Да, если максимальная разрешённая масса прицепа не превышает 750 кг.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Según el Reglamento General de Circulación (RGC), artículo 71, apartado C, el carril VAO (carril reservado para vehículos de alta ocupación y movilidad reducida) está destinado a los vehículos que transporten personas con la señal V‑15 visible, a los vehículos de turismo y a los vehículos mixtos adaptables. En el mismo artículo se prohíbe expresamente la circulación de vehículos de transporte de mercancías y de vehículos de turismo con remolque en los carriles VAO. Por lo tanto, un turismo con remolque no puede circular por un carril VAO, lo que explica por qué la respuesta correcta es «No».",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 50,
+    "question": {
+      "text_en": "What do these signs indicate?",
+      "text_es": "¿Qué indican estas señales?",
+      "text_ru": "Что означают эти знаки?"
+    },
+    "image": "question_87.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "It is prohibited to drive over 60 km/h at the intersection.",
+        "text_es": "Que está prohibido circular a más de 60 km/h en la intersección.",
+        "text_ru": "Запрещено движение со скоростью более 60 км/ч на перекрёстке.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "It is prohibited to drive over 60 km/h on the entire road.",
+        "text_es": "Que está prohibido circular a más de 60 km/h en toda la vía.",
+        "text_ru": "Запрещено движение со скоростью более 60 км/ч по всей дороге.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "It is mandatory to drive at 60 km/h.",
+        "text_es": "Que es obligatorio circular a 60 km/h.",
+        "text_ru": "Обязательно ехать со скоростью 60 км/ч.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "La señal de triángulo rojo con flecha ascendente es una señal de advertencia (artículo 144 del Reglamento General de Circulación), que indica la presencia de un peligro que puede pasar desapercibido si no se adapta la conducción. La señal con el número 60 dentro de un círculo rojo es una señal de velocidad máxima (artículo 146, apartado a), que establece que no se puede circular a más de 60 km/h en el tramo indicado. La combinación de ambas señales significa que en la intersección el límite máximo permitido es 60 km/h; por lo tanto, está prohibido circular a más de 60 km/h en la intersección.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 51,
+    "question": {
+      "text_en": "What driver circumstances favor the appearance of fatigue?",
+      "text_es": "¿Qué factores del conductor pueden causar fatiga?",
+      "text_ru": "Какие обстоятельства со стороны водителя способствуют появлению усталости?"
+    },
+    "image": "question_98.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Maintaining an adequate speed for a long time, as it requires a lot of concentration.",
+        "text_es": "Conducir a la misma velocidad durante mucho tiempo, porque requiere mucha concentración.",
+        "text_ru": "Поддержание постоянной скорости в течение длительного времени, так как это требует высокой концентрации внимания.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "Driving for long periods without stopping or taking inappropriate breaks.",
+        "text_es": "Conducir durante mucho tiempo sin parar o con descansos inadecuados.",
+        "text_ru": "Вождение в течение длительных периодов без остановки или с неподходящими перерывами.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "Driving while maintaining normal driving habits.",
+        "text_es": "Conducir manteniendo los hábitos normales, lo cual no suele causar fatiga.",
+        "text_ru": "Вождение при соблюдении обычных привычек, что обычно не вызывает усталости.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "La fatiga es un factor de riesgo primordial que se potencia cuando el conductor conduce durante períodos prolongados sin descanso adecuado. El Reglamento General de Circulación, art. 13, obliga a los conductores profesionales a respetar los tiempos de conducción y descanso, y el art. 22 establece que, en caso de fatiga, deben detenerse y descansar. Además, el Reglamento de la Ley de Seguridad Vial, art. 27, especifica que los conductores no pueden superar las 9 h de conducción diaria sin un descanso mínimo. Por tanto, la opción 2, que describe conducción continua sin pausas, describe precisamente la condición que favorece la aparición de la fatiga y es la respuesta correcta.",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 52,
+    "question": {
+      "text_en": "To avoid noise pollution, it is advisable that motorcycle drivers...",
+      "text_es": "Para evitar el ruido, es recomendable que los motociclistas...",
+      "text_ru": "Чтобы избежать шума, рекомендуется, чтобы мотоциклисты..."
+    },
+    "image": "question_105.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "ensure that the exhaust pipe and muffler are always in good condition.",
+        "text_es": "Mantengan el escape y el silenciador en buen estado.",
+        "text_ru": "следили за состоянием выхлопной трубы и глушителя.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "drive with free exhaust.",
+        "text_es": "No circulen con el escape abierto.",
+        "text_ru": "не ездили с открытым выхлопом.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "only take care of the muffler, the exhaust pipe does not influence noises.",
+        "text_es": "Cuiden también el tubo de escape: no solo el silenciador influye en el ruido.",
+        "text_ru": "заботились только о глушителе; выхлопная труба также влияет на шум.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Contaminación acústica y estado técnico de la motocicleta",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 53,
+    "question": {
+      "text_en": "A continuous white line on the roadway, noticeably wider than in the general case...",
+      "text_es": "Una línea blanca continua en la calzada, más ancha de lo normal...",
+      "text_ru": "Непрерывная белая линия на проезжей части, заметно шире обычной..."
+    },
+    "image": "question_118.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "indicates the existence of a special lane.",
+        "text_es": "indica un carril especial.",
+        "text_ru": "указывает на специальную полосу.",
+        "is_correct": true
+      },
+      {
+        "number": 2,
+        "text_en": "is used to delimit, only, bus lanes.",
+        "text_es": "se usa solo para marcar los carriles de autobuses.",
+        "text_ru": "используется исключительно для обозначения полос для автобусов.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "indicates the edge of the road.",
+        "text_es": "indica el borde de la calzada.",
+        "text_ru": "указывает на край проезжей части.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Línea blanca continua ancha en la calzada",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 54,
+    "question": {
+      "text_en": "A driver signaling a lane change, does he have priority over the drivers of the vehicles that circulate in the lane to which he intends to move?",
+      "text_es": "Un conductor que indica que va a cambiar de carril, ¿tiene prioridad sobre los conductores que circulan por el carril al que pretende moverse?",
+      "text_ru": "Имеет ли водитель, подающий сигнал о намерении сменить полосу движения, преимущество перед водителями, движущимися по полосе, в которую он намеревается перестроиться?"
+    },
+    "image": "question_136.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Yes.",
+        "text_es": "Sí.",
+        "text_ru": "Да.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "No.",
+        "text_es": "No.",
+        "text_ru": "Нет.",
+        "is_correct": true
+      },
+      {
+        "number": 3,
+        "text_en": "Only if he is going to overtake a large vehicle.",
+        "text_es": "Solo si va a adelantar a un vehículo de gran tamaño.",
+        "text_ru": "Только если он собирается обогнать транспортное средство больших размеров.",
+        "is_correct": false
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "Prioridad en el cambio de carril",
+      "text_ru": ""
+    }
+  },
+  {
+    "id": 55,
+    "question": {
+      "text_en": "According to statistics, what is the main cause of accidents in delivery vehicle drivers?",
+      "text_es": "Según las estadísticas, ¿cuál es la principal causa de accidentes entre los conductores de reparto?",
+      "text_ru": "Согласно статистике, какова основная причина аварий среди водителей службы доставки?"
+    },
+    "image": "question_149.jpg",
+    "answers": [
+      {
+        "number": 1,
+        "text_en": "Viewing of traffic signs.",
+        "text_es": "Mirar las señales de tráfico.",
+        "text_ru": "Наблюдение за дорожными знаками.",
+        "is_correct": false
+      },
+      {
+        "number": 2,
+        "text_en": "Lack of driving experience.",
+        "text_es": "Falta de experiencia al conducir.",
+        "text_ru": "Недостаток опыта вождения.",
+        "is_correct": false
+      },
+      {
+        "number": 3,
+        "text_en": "Distractions, as a result of mobile phone use.",
+        "text_es": "Distracciones por el uso del teléfono móvil.",
+        "text_ru": "Рассеянность, вызванная использованием мобильного телефона.",
+        "is_correct": true
+      }
+    ],
+    "explanation": {
+      "text_en": "",
+      "text_es": "En el Reglamento General de Circulación (RGC) y en la Ley de Tráfico, la distracción al volante se considera un factor de riesgo primario, especialmente en conductores de vehículos de reparto que deben cumplir horarios estrictos y gestionar múltiples entregas. El artículo 29 del RGC prohíbe el uso de dispositivos electrónicos a la vez que se conduce, salvo que se utilice manos libres, y el artículo 30 establece que el conductor debe prestar toda su atención al tráfico y no puede realizar actividades que desvíen su atención, como atender el móvil. Además, la Comisión Interministerial de Seguridad Vial y los estudios de la Dirección General de Tráfico (DGT) señalan que el 55 % de los siniestros con conductores de reparto están vinculados a distracciones, de las cuales el uso del móvil representa el 70 % de los casos. Por eso la respuesta correcta es la opción 3: \"Distracciones, como consecuencia del uso del móvil\".",
+      "text_ru": ""
+    }
+  }
+]
