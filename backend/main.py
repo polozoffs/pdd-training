@@ -5,13 +5,15 @@ Provides API endpoints for questions, answers, admin functionality, and user aut
 
 import json
 import os
+import time
 import uuid
 import datetime
+from collections import defaultdict
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Any, List, Optional, Union
 
-from fastapi import Depends, FastAPI, HTTPException, Response, UploadFile, File
+from fastapi import Depends, FastAPI, HTTPException, Request, Response, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse, RedirectResponse
@@ -108,6 +110,8 @@ class RegisterRequest(BaseModel):
     username: str
     email: str
     password: str
+    honeypot: str = ""
+    form_open_at: float = 0  # ms timestamp from client (Date.now())
 
 class LoginRequest(BaseModel):
     email: str
@@ -172,8 +176,32 @@ async def pdd_home():
 
 # ── Auth routes ────────────────────────────────────────────────────────────────
 
+# In-memory rate limiter for registration: {ip: [timestamp_seconds, ...]}
+_reg_attempts: dict = defaultdict(list)
+_REG_LIMIT = 5
+_REG_WINDOW = 3600  # seconds
+
+
 @app.post("/api/auth/register", response_model=UserResponse)
-async def register(request: RegisterRequest, response: Response, db: Session = Depends(get_db)):
+async def register(request: RegisterRequest, http_request: Request, response: Response, db: Session = Depends(get_db)):
+    # Honeypot: bots fill hidden fields, humans don't
+    if request.honeypot:
+        raise HTTPException(400, "Invalid request")
+
+    # Timing: reject if submitted suspiciously fast (< 2 s after form opened)
+    if request.form_open_at > 0:
+        elapsed_ms = time.time() * 1000 - request.form_open_at
+        if elapsed_ms < 2000:
+            raise HTTPException(400, "Пожалуйста, заполните форму внимательно.")
+
+    # IP rate limiting: max 5 registrations per IP per hour
+    client_ip = http_request.client.host if http_request.client else "unknown"
+    now = time.time()
+    _reg_attempts[client_ip] = [t for t in _reg_attempts[client_ip] if now - t < _REG_WINDOW]
+    if len(_reg_attempts[client_ip]) >= _REG_LIMIT:
+        raise HTTPException(429, "Слишком много попыток регистрации. Попробуйте позже.")
+    _reg_attempts[client_ip].append(now)
+
     if len(request.username.strip()) < 2:
         raise HTTPException(400, "Username must be at least 2 characters")
     if "@" not in request.email or "." not in request.email.split("@")[-1]:
@@ -392,6 +420,35 @@ async def get_stats():
         "questions_with_images": sum(1 for q in questions if q.image),
         "questions_with_explanations": sum(1 for q in questions if q.explanation),
     }
+
+@app.get("/googlea207e655fb0f2f0a.html", include_in_schema=False)
+async def google_site_verification():
+    return Response(content="google-site-verification: googlea207e655fb0f2f0a.html", media_type="text/html")
+
+
+@app.get("/robots.txt", include_in_schema=False)
+async def robots_txt():
+    content = (
+        "User-agent: *\n"
+        "Allow: /pdd/\n"
+        "Disallow: /api/\n"
+        "Sitemap: http://www.polozoffs.top/sitemap.xml\n"
+    )
+    return Response(content=content, media_type="text/plain")
+
+
+@app.get("/sitemap.xml", include_in_schema=False)
+async def sitemap_xml():
+    content = """<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://www.polozoffs.top/pdd/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>"""
+    return Response(content=content, media_type="application/xml")
+
 
 # Catch-all route for React Router (SPA)
 @app.get("/{full_path:path}")

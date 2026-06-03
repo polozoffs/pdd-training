@@ -29,8 +29,8 @@ export function AuthProvider({ children }) {
     return () => axios.interceptors.response.eject(interceptor)
   }, [])
 
-  const register = async (username, email, password) => {
-    const res = await axios.post('/api/auth/register', { username, email, password })
+  const register = async (username, email, password, honeypot = '', formOpenAt = 0) => {
+    const res = await axios.post('/api/auth/register', { username, email, password, honeypot, form_open_at: formOpenAt })
     setUser(res.data)
     return res.data
   }

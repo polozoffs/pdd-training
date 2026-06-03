@@ -12,16 +12,39 @@ function Register() {
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
 
+  // Bot protection
+  const [honeypot, setHoneypot] = useState('')
+  const [formOpenAt] = useState(() => Date.now())
+  const [captchaA] = useState(() => Math.floor(Math.random() * 9) + 1)
+  const [captchaB] = useState(() => Math.floor(Math.random() * 9) + 1)
+  const [captchaAnswer, setCaptchaAnswer] = useState('')
+
   const handleSubmit = async (e) => {
     e.preventDefault()
     setError('')
+
+    // Honeypot: silently reject if filled (only bots do this)
+    if (honeypot) return
+
+    // Timing: reject if form submitted in under 3 seconds
+    if (Date.now() - formOpenAt < 3000) {
+      setError('Пожалуйста, заполните форму внимательно.')
+      return
+    }
+
+    // Math CAPTCHA
+    if (parseInt(captchaAnswer, 10) !== captchaA + captchaB) {
+      setError('Неверный ответ на проверочный вопрос.')
+      return
+    }
+
     if (password !== confirmPassword) {
       setError('Passwords do not match')
       return
     }
     setLoading(true)
     try {
-      await register(username, email, password)
+      await register(username, email, password, honeypot, formOpenAt)
       navigate('/quiz')
     } catch (err) {
       setError(err.response?.data?.detail || 'Registration failed. Please try again.')
@@ -39,6 +62,20 @@ function Register() {
         {error && <div className="auth-error">{error}</div>}
 
         <form onSubmit={handleSubmit}>
+          {/* Honeypot — invisible to humans, bots fill it in */}
+          <div style={{ position: 'absolute', left: '-9999px', opacity: 0, pointerEvents: 'none' }} aria-hidden="true">
+            <label htmlFor="website">Website</label>
+            <input
+              id="website"
+              type="text"
+              name="website"
+              value={honeypot}
+              onChange={e => setHoneypot(e.target.value)}
+              tabIndex={-1}
+              autoComplete="off"
+            />
+          </div>
+
           <div className="form-group">
             <label htmlFor="username">Name</label>
             <input
@@ -85,6 +122,19 @@ function Register() {
               placeholder="••••••••"
             />
           </div>
+          <div className="form-group">
+            <label htmlFor="captcha">Сколько будет {captchaA} + {captchaB}?</label>
+            <input
+              id="captcha"
+              type="number"
+              value={captchaAnswer}
+              onChange={e => setCaptchaAnswer(e.target.value)}
+              required
+              placeholder="Введите число"
+              autoComplete="off"
+            />
+          </div>
+
           <button type="submit" className="btn btn-primary btn-full" disabled={loading}>
             {loading ? 'Creating account…' : 'Create Account'}
           </button>

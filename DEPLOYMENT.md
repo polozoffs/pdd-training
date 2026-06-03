@@ -57,6 +57,10 @@ curl http://45.95.175.156:8002/api/stats
 rsync -av --exclude='node_modules' --exclude='dist' --exclude='__pycache__' \
   pdd_app/ root@45.95.175.156:/opt/pdd-app/
 
+# Fix permissions — rsync copies files as your local UID (501/Mac user).
+# The container's pddapp user needs write access to the data directory and DB.
+ssh root@45.95.175.156 "chown -R root:root /opt/pdd-app/data && chmod 777 /opt/pdd-app/data && chmod 666 /opt/pdd-app/data/pdd.db"
+
 # Rebuild and restart
 ssh root@45.95.175.156 "cd /opt/pdd-app && docker compose up -d --build"
 ```
